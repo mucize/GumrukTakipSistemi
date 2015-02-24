@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="GumrukDatabaseDeneme" Class="GumrukDataClassesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(LocalDB)\v11.0;AttachDbFilename=|DataDirectory|\GumrukDatabaseDeneme.mdf;Integrated Security=True;Connect Timeout=30" SettingsObjectName="WindowsProjeDeneme.Properties.Settings" SettingsPropertyName="GumrukDatabaseDenemeConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.KULLANICI" Member="KULLANICIs">
+    <Type Name="KULLANICI">
+      <Column Name="TC" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Ad" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Soyad" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Kullanıcı_Adi" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Kullanıcı_Sifresi" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Adres" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="D_Tarihi" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="Cinsiyet" Type="System.String" DbType="VarChar(5) NOT NULL" CanBeNull="false" />
+      <Column Name="Personel_Turu" Type="System.String" DbType="VarChar(7) NOT NULL" CanBeNull="false" />
+      <Column Name="Telefon" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="KULLANICI_TASIMALAR" Member="TASIMALARs" ThisKey="TC" OtherKey="Memur_TC" Type="TASIMALAR" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TASIMALAR" Member="TASIMALARs">
+    <Type Name="TASIMALAR">
+      <Column Name="Sıra_No" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Plaka" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Arac_Cinsi" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Ulkesi" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Firma" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Surucu_Pasaport_No" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Surucu_Ad" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Surucu_Soyad" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Surucu_Uyruk" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Yuk_Cinsi" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Miktar" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="Olcu_Birimi" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Giris_Zamanı" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="Cıkıs_Zamanı" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Geldigi_Yer" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Gidecegi_Yer" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="[Giris/Cıkıs]" Member="Giris_Cıkıs" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="Memur_TC" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="KULLANICI_TASIMALAR" Member="KULLANICI" ThisKey="Memur_TC" OtherKey="TC" Type="KULLANICI" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

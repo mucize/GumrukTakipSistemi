@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="GumrukDataClasses">
+  <DataContextMoniker Name="/GumrukDataClassesDataContext" />
+  <nestedChildShapes>
+    <classShape Id="3c43c3c9-737f-432c-90d2-960d1411e7f2" absoluteBounds="3.25, 3.25, 2, 2.9247054036458318">
+      <DataClassMoniker Name="/GumrukDataClassesDataContext/KULLANICI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4fe38dff-0687-40b0-beeb-bcb5a9ec9d61" absoluteBounds="3.265, 3.71, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="51402c00-18ce-4b64-9e7a-d1cf5bd430bf" absoluteBounds="8, 3.75, 2, 4.2708154296875">
+      <DataClassMoniker Name="/GumrukDataClassesDataContext/TASIMALAR" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c8518549-aada-4ab6-818d-53b890f3f606" absoluteBounds="8.015, 4.21, 1.9700000000000002, 3.7108154296875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.25 : 4.96235270182292); (8 : 4.96235270182292)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/GumrukDataClassesDataContext/KULLANICI/KULLANICI_TASIMALAR" />
+      <nodes>
+        <classShapeMoniker Id="3c43c3c9-737f-432c-90d2-960d1411e7f2" />
+        <classShapeMoniker Id="51402c00-18ce-4b64-9e7a-d1cf5bd430bf" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

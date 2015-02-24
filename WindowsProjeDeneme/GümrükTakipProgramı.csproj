@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F6123C97-BF23-472F-AC3B-7B4DB67B79C8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsProjeDeneme</RootNamespace>
+    <AssemblyName>WindowsProjeDeneme</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="KullaniciBaseForm">
+      <HintPath>..\..\KullaniciBaseForm\KullaniciBaseForm\bin\Debug\KullaniciBaseForm.dll</HintPath>
+    </Reference>
+    <Reference Include="saatClassLibrary">
+      <HintPath>..\..\saatClassLibrary\saatClassLibrary\bin\Debug\saatClassLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormAcilis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAcilis.Designer.cs">
+      <DependentUpon>FormAcilis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAracCikis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAracCikis.Designer.cs">
+      <DependentUpon>FormAracCikis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAracGiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAracGiris.Designer.cs">
+      <DependentUpon>FormAracGiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormGiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGiris.Designer.cs">
+      <DependentUpon>FormGiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormKayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormKayit.Designer.cs">
+      <DependentUpon>FormKayit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMemur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMemur.Designer.cs">
+      <DependentUpon>FormMemur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormProfil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProfil.Designer.cs">
+      <DependentUpon>FormProfil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTumAraclar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTumAraclar.Designer.cs">
+      <DependentUpon>FormTumAraclar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTumMemurlar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTumMemurlar.Designer.cs">
+      <DependentUpon>FormTumMemurlar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormYetkili.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormYetkili.Designer.cs">
+      <DependentUpon>FormYetkili.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GumrukDataClasses.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GumrukDataClasses.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormAcilis.resx">
+      <DependentUpon>FormAcilis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAracCikis.resx">
+      <DependentUpon>FormAracCikis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAracGiris.resx">
+      <DependentUpon>FormAracGiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGiris.resx">
+      <DependentUpon>FormGiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormKayit.resx">
+      <DependentUpon>FormKayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMemur.resx">
+      <DependentUpon>FormMemur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProfil.resx">
+      <DependentUpon>FormProfil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTumAraclar.resx">
+      <DependentUpon>FormTumAraclar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTumMemurlar.resx">
+      <DependentUpon>FormTumMemurlar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormYetkili.resx">
+      <DependentUpon>FormYetkili.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="GumrukDataClasses.dbml.layout">
+      <DependentUpon>GumrukDataClasses.dbml</DependentUpon>
+    </None>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="GumrukDataClasses.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>GumrukDataClasses.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\DataSources\KULLANICI.datasource" />
+    <None Include="Properties\DataSources\TASIMALAR.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="GumrukDatabaseDeneme.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="GumrukDatabaseDeneme_log.ldf">
+      <DependentUpon>GumrukDatabaseDeneme.mdf</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

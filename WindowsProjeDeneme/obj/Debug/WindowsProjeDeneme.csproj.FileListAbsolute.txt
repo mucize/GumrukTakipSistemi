@@ -1,0 +1,46 @@
+D:\OOP\Visual\WindowsProjeDeneme\WindowsProjeDeneme\bin\Debug\WindowsProjeDeneme.exe.config
+D:\OOP\Visual\WindowsProjeDeneme\WindowsProjeDeneme\obj\Debug\WindowsProjeDeneme.FormAcilis.resources
+D:\OOP\Visual\WindowsProjeDeneme\WindowsProjeDeneme\obj\Debug\WindowsProjeDeneme.FormAracGiris.resources
+D:\OOP\Visual\WindowsProjeDeneme\WindowsProjeDeneme\obj\Debug\WindowsProjeDeneme.FormGiris.resources
+D:\OOP\Visual\WindowsProjeDeneme\WindowsProjeDeneme\obj\Debug\WindowsProjeDeneme.FormKayit.resources
+D:\OOP\Visual\WindowsProjeDeneme\WindowsProjeDeneme\obj\Debug\WindowsProjeDeneme.FormMemur.resources
+D:\OOP\Visual\WindowsProjeDeneme\WindowsProjeDeneme\obj\Debug\WindowsProjeDeneme.FormTumAraclar.resources
+D:\OOP\Visual\WindowsProjeDeneme\WindowsProjeDeneme\obj\Debug\WindowsProjeDeneme.FormYetkili.resources
+D:\OOP\Visual\WindowsProjeDeneme\WindowsProjeDeneme\obj\Debug\WindowsProjeDeneme.Properties.Resources.resources
+D:\OOP\Visual\WindowsProjeDeneme\WindowsProjeDeneme\obj\Debug\WindowsProjeDeneme.csproj.GenerateResource.Cache
+D:\OOP\Visual\WindowsProjeDeneme\WindowsProjeDeneme\bin\Debug\GumrukDatabaseDeneme.mdf
+D:\OOP\Visual\WindowsProjeDeneme\WindowsProjeDeneme\bin\Debug\GumrukDatabaseDeneme_log.ldf
+D:\OOP\Visual\WindowsProjeDeneme\WindowsProjeDeneme\bin\Debug\WindowsProjeDeneme.exe
+D:\OOP\Visual\WindowsProjeDeneme\WindowsProjeDeneme\bin\Debug\WindowsProjeDeneme.pdb
+D:\OOP\Visual\WindowsProjeDeneme\WindowsProjeDeneme\bin\Debug\KullaniciBaseForm.dll
+D:\OOP\Visual\WindowsProjeDeneme\WindowsProjeDeneme\bin\Debug\saatClassLibrary.dll
+D:\OOP\Visual\WindowsProjeDeneme\WindowsProjeDeneme\bin\Debug\KullaniciBaseForm.pdb
+D:\OOP\Visual\WindowsProjeDeneme\WindowsProjeDeneme\bin\Debug\saatClassLibrary.pdb
+D:\OOP\Visual\WindowsProjeDeneme\WindowsProjeDeneme\obj\Debug\WindowsProjeDeneme.csprojResolveAssemblyReference.cache
+D:\OOP\Visual\WindowsProjeDeneme\WindowsProjeDeneme\obj\Debug\WindowsProjeDeneme.exe
+D:\OOP\Visual\WindowsProjeDeneme\WindowsProjeDeneme\obj\Debug\WindowsProjeDeneme.pdb
+D:\OOP\Visual\WindowsProjeDeneme\WindowsProjeDeneme\obj\Debug\WindowsProjeDeneme.FormAracCikis.resources
+D:\OOP\Visual\WindowsProjeDeneme\WindowsProjeDeneme\obj\Debug\WindowsProjeDeneme.FormProfil.resources
+D:\OOP\Visual\WindowsProjeDeneme\WindowsProjeDeneme\obj\Debug\WindowsProjeDeneme.FormTumMemurlar.resources
+D:\Code\Visual Studio\C#\Gümrük Takip Sistemi\WindowsProjeDeneme\bin\Debug\WindowsProjeDeneme.exe.config
+D:\Code\Visual Studio\C#\Gümrük Takip Sistemi\WindowsProjeDeneme\obj\Debug\WindowsProjeDeneme.exe
+D:\Code\Visual Studio\C#\Gümrük Takip Sistemi\WindowsProjeDeneme\obj\Debug\WindowsProjeDeneme.pdb
+D:\Code\Visual Studio\C#\Gümrük Takip Sistemi\WindowsProjeDeneme\bin\Debug\GumrukDatabaseDeneme.mdf
+D:\Code\Visual Studio\C#\Gümrük Takip Sistemi\WindowsProjeDeneme\bin\Debug\GumrukDatabaseDeneme_log.ldf
+D:\Code\Visual Studio\C#\Gümrük Takip Sistemi\WindowsProjeDeneme\bin\Debug\WindowsProjeDeneme.exe
+D:\Code\Visual Studio\C#\Gümrük Takip Sistemi\WindowsProjeDeneme\bin\Debug\WindowsProjeDeneme.pdb
+D:\Code\Visual Studio\C#\Gümrük Takip Sistemi\WindowsProjeDeneme\bin\Debug\KullaniciBaseForm.pdb
+D:\Code\Visual Studio\C#\Gümrük Takip Sistemi\WindowsProjeDeneme\bin\Debug\saatClassLibrary.pdb
+D:\Code\Visual Studio\C#\Gümrük Takip Sistemi\WindowsProjeDeneme\obj\Debug\WindowsProjeDeneme.csprojResolveAssemblyReference.cache
+D:\Code\Visual Studio\C#\Gümrük Takip Sistemi\WindowsProjeDeneme\obj\Debug\WindowsProjeDeneme.FormAcilis.resources
+D:\Code\Visual Studio\C#\Gümrük Takip Sistemi\WindowsProjeDeneme\obj\Debug\WindowsProjeDeneme.FormAracCikis.resources
+D:\Code\Visual Studio\C#\Gümrük Takip Sistemi\WindowsProjeDeneme\obj\Debug\WindowsProjeDeneme.FormAracGiris.resources
+D:\Code\Visual Studio\C#\Gümrük Takip Sistemi\WindowsProjeDeneme\obj\Debug\WindowsProjeDeneme.FormGiris.resources
+D:\Code\Visual Studio\C#\Gümrük Takip Sistemi\WindowsProjeDeneme\obj\Debug\WindowsProjeDeneme.FormKayit.resources
+D:\Code\Visual Studio\C#\Gümrük Takip Sistemi\WindowsProjeDeneme\obj\Debug\WindowsProjeDeneme.FormMemur.resources
+D:\Code\Visual Studio\C#\Gümrük Takip Sistemi\WindowsProjeDeneme\obj\Debug\WindowsProjeDeneme.FormProfil.resources
+D:\Code\Visual Studio\C#\Gümrük Takip Sistemi\WindowsProjeDeneme\obj\Debug\WindowsProjeDeneme.FormTumAraclar.resources
+D:\Code\Visual Studio\C#\Gümrük Takip Sistemi\WindowsProjeDeneme\obj\Debug\WindowsProjeDeneme.FormTumMemurlar.resources
+D:\Code\Visual Studio\C#\Gümrük Takip Sistemi\WindowsProjeDeneme\obj\Debug\WindowsProjeDeneme.FormYetkili.resources
+D:\Code\Visual Studio\C#\Gümrük Takip Sistemi\WindowsProjeDeneme\obj\Debug\WindowsProjeDeneme.Properties.Resources.resources
+D:\Code\Visual Studio\C#\Gümrük Takip Sistemi\WindowsProjeDeneme\obj\Debug\WindowsProjeDeneme.csproj.GenerateResource.Cache
